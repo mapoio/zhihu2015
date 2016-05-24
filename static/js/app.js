@@ -8,7 +8,7 @@ webpackJsonp([1], {
             function n(e) {
                 e.timeline.unshift({
                     type: "text",
-                    data: {text: "Username: " + "崔小拽" + "\nPassword: 123456789\nACCESS TO SYSTEM\n再酷炫一行\n再来一行"},
+                    data: {text: "Username: " + "端午节快乐" + "\nPassword: ×××××××××\nACCESS TO SYSTEM\n再酷炫一行\n再来一行"},
                     config: {effect: !0, randomPause: !0, cursor: !0}
                 });
                 var i = t("#main"), n = new a["default"](i, e), s = c["default"].getInstance(), o = Math.ceil(e.timeline.length / 5);
