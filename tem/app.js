@@ -13,7 +13,7 @@ webpackJsonp([1], {
                 e.timeline.unshift({
                     type: "text",
                     data: {
-                        text: "Username: " + "端午节快乐" + "\nPassword: ×××××××××\nACCESS TO SYSTEM\n再酷炫一行\n再来一行"
+                        text: "Username: " + e.username + "\nPassword: *********\nACCESS TO SYSTEM\nInitializing..."
                     },
                     config: {
                         effect: !0,
@@ -25,7 +25,6 @@ webpackJsonp([1], {
                     n = new a["default"](i, e),
                     s = c["default"].getInstance(),
                     o = Math.ceil(e.timeline.length / 5);
-
                 n.showHint(!1).then(function() {
                     return s.show()
                 }), s.on(c["default"].EventType.SHOW_MORE, function() {
@@ -38,7 +37,7 @@ webpackJsonp([1], {
             }
 
             function s(t) {
-                var e = ["marry.png", "zhihudaily.png", "magnet.png", "vote.png", "liukanshan.gif"];
+                var e = ["release.png", "zhihudaily.png", "magnet.png", "vote.png", "liukanshan.gif"];
                 for (var i in t) {
                     var n = t[i].type,
                         s = t[i].data.name;
@@ -60,15 +59,13 @@ webpackJsonp([1], {
                     } finally {
                         if (r) throw a
                     }
-                }
-                (0, w.loadJson)("register")
+                }(0, w.loadJson)("register")
             }
 
             function o() {
-                var e = '\n    <div id="head">\n      <div class="tab">\n        靠谱崔小追啊-0.3years\n      </div>\n    </div>\n    <div id="main" class="terminal">\n      <img src="https://2015.zhihu.com/static/img/unauthorized.png" alt="警告" class="sign"/>\n      <div class="explanation">未检测到足够数据，无法破译</div>\n    </div>\n  ';
+                var e = '\n    <div id="head">\n      <div class="tab">\n        zhihu-5years\n      </div>\n    </div>\n    <div id="main" class="terminal">\n      <img src="/static/img/unauthorized.png" alt="警告" class="sign"/>\n      <div class="explanation">未检测到足够数据，无法破译</div>\n    </div>\n  ';
                 t("#app-container").html(e)
             }
-
             i(5), i(195);
             var r = i(240),
                 a = e(r),
@@ -87,325 +84,26 @@ webpackJsonp([1], {
                 w = i(246);
             i(238), g["default"].init(), b["default"].init();
             var x = function() {
-
-                    // reponse :{"bonus": {"\u4e09\u4f53\uff08\u7cfb\u5217\u5c0f\u8bf4\uff09": {"type": "img", "data": {"name": "santi.png"}, "id": "santi"}, "\u7a0b\u5e8f\u5458": {"type": "img", "data": {"name": "coder.png"}, "id": "coder"}, "\u817e\u8baf": {"type": "img", "data": {"name": "tencent.png"}, "id": "tencent"}, "\u5207\u5c14\u897f\uff08Chelsea FC\uff09": {"type": "rolling", "data": {"name": "soccer.png"}, "id": "rolling_soccer"}, "\u5a5a\u59fb": {"type": "img", "data": {"name": "marry.png"}, "id": "marry"}}, "timeline": [{"date": 1295145152, "data": [{"name": "<Date>", "value": "2011.01.26 02:32:32"}, {"bonus": {"data": {"className": "multiline-img blink", "name": "release.png"}, "type": "img"}, "name": "event", "value": "\u77e5\u4e4e\u6b63\u5f0f\u4e0a\u7ebf"}], "type": "event"}, {"date": 1366675200, "data": [{"name": "<Date>", "value": "2013.04.23"}, {"name": "event", "value": "\u5f00\u653e\u6ce8\u518c"}], "type": "event"}, {"date": 1369353600, "data": [{"name": "<Date>", "value": "2013.05.24"}, {"bonus": {"data": {"className": "multiline-img blink", "name": "zhihudaily.png"}, "type": "img"}, "name": "event", "value": "\u300c\u77e5\u4e4e\u65e5\u62a5\u300d\u6b63\u5f0f\u4e0a\u7ebf"}], "type": "event"}, {"date": 1396310400, "data": [{"name": "<Date>", "value": "2014.04.01"}, {"bonus": {"data": {"className": "multiline-img", "name": "liukanshan.gif"}, "type": "img"}, "name": "event", "value": "\u5218\u770b\u5c71\u52a0\u5165\u77e5\u4e4e"}], "type": "event"}, {"date": 1440337971, "data": [{"name": "<Date>", "value": "2015.08.23 21:52:51"}, {"name": "action", "value": "\u6ce8\u518c\u6210\u529f"}, {"bonus": {"data": {"name": "register"}, "type": "ascii"}, "name": "ID", "value": "\u5d14\u5c0f\u62fd * \u7b2c 33750721 \u53f7\u7528\u6237 *"}], "type": "action"}, {"date": 1440374399, "end": 1441670399, "type": "topics", "data": [{"name": "<Date>", "value": "2015.08.23-2015.09.07"}, {"name": "favorite topics", "value": ["\u817e\u8baf", "\u79d1\u5e7b\u5c0f\u8bf4", "\u79d1\u5e7b", "\u4eba\u6c11\u5e01\u6536\u85cf", "\u7280\u725b\u6545\u4e8b", "\u4e09\u4f53\uff08\u7cfb\u5217\u5c0f\u8bf4\uff09", "\u4e09\u4f53\u200a\u2162\u2006:\u2006\u6b7b\u795e\u6c38\u751f", "\u524d\u7aef\u6846\u67b6", "\u56fe\u7247\u7248\u6743", "\u521b\u4e1a"]}]}, {"date": 1440383568, "data": [{"name": "<Date>", "value": "2015.08.24"}, {"name": "action", "value": "\u9996\u6b21\u5173\u6ce8\u95ee\u9898"}, {"name": "question", "value": "\u8c08\u604b\u7231\u65f6\u603b\u5fcd\u4e0d\u4f4f\u300c\u4f5c\u300d\uff0c\u8981\u600e\u4e48\u529e\u624d\u597d\uff1f"}], "type": "action"}, {"date": 1440425142, "data": [{"name": "<Date>", "value": "2015.08.24"}, {"name": "action", "value": "\u9996\u6b21\u8d5e\u540c"}, {"name": "to", "value": "\u7528\u6237\u300c\u6797\u633a\u300d"}, {"name": "answer", "value": "\u300a\u4e09\u4f53\u300b\u597d\u5728\u54ea\u91cc\uff1f"}], "type": "action"}, {"date": 1440644169, "data": [{"name": "<Date>", "value": "2015.08.27"}, {"name": "action", "value": "\u9996\u6b21\u6536\u85cf"}, {"name": "answer", "value": "\u5982\u4f55\u8bc4\u4ef7\u300a\u4e09\u4f53\u300b\u7b2c\u4e09\u90e8\u4e2d\u7684\u7a0b\u5fc3\uff1f"}, {"name": "to", "value": "\u7528\u6237\u300c\u5468\u5929\u300d"}], "type": "action"}, {"date": 1441619286, "data": [{"name": "<Date>", "value": "2015.09.07"}, {"name": "action", "value": "\u9996\u6b21\u56de\u7b54"}, {"name": "answer", "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"}], "type": "action"}, {"date": 1441670399, "end": 1449446399, "type": "topics", "data": [{"name": "<Date>", "value": "2015.09.07-2015.12.06"}, {"name": "favorite topics", "value": ["\u4fe1\u606f\u6280\u672f\uff08IT\uff09", "\u6280\u672f\u535a\u5ba2", "\u7a0b\u5e8f\u5458", "\u6bb5\u5b50", "\u524d\u7aef\u5f00\u53d1", "\u8bbe\u8ba1", "\u5a5a\u59fb", "\u5207\u5c14\u897f\uff08Chelsea FC\uff09", "\u4e09\u4f53\u200a\u2162\u2006:\u2006\u6b7b\u795e\u6c38\u751f", "\u4e92\u8054\u7f51\u884c\u4e1a"]}]}, {"date": 1441962760, "data": [{"name": "<Date>", "value": "2015.09.11"}, {"bonus": {"data": {"className": "inline-img", "name": "vote.png"}, "type": "img"}, "name": "action", "value": "\u9996\u6b21\u83b7\u5f97\u8d5e\u540c"}, {"name": "from", "value": "\u7528\u6237\u300cfrank\u300d"}, {"name": "answer", "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"}], "type": "action"}, {"date": 1442117218, "data": [{"name": "<Date>", "value": "2015.09.13"}, {"name": "action", "value": "\u9996\u6b21\u88ab\u6536\u85cf"}, {"name": "answer", "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"}, {"name": "from", "value": "\u7528\u6237\u300c\u5546\u4ecb\u5b50\u300d"}], "type": "action"}, {"date": 1443052800, "data": [{"name": "<Date>", "value": "2015.09.24"}, {"name": "event", "value": "\u300c\u8bfb\u8bfb\u65e5\u62a5\u300d\u4e0a\u7ebf"}], "type": "event"}, {"date": 1443104538, "data": [{"name": "<Date>", "value": "2015.09.24"}, {"name": "action", "value": "\u9996\u6b21\u5173\u6ce8\u7528\u6237"}, {"name": "to", "value": "\u7528\u6237\u300c\u738b\u5c3c\u739b\u300d"}], "type": "action"}, {"date": 1443397304, "data": [{"name": "<Date>", "value": "2015.09.28"}, {"name": "result", "value": "\u6dfb\u52a0\u5c45\u4f4f\u5730: \u5317\u4eac"}], "type": "action"}, {"date": 1443397304, "data": [{"name": "<Date>", "value": "2015.09.28"}, {"name": "result", "value": "\u6dfb\u52a0\u516c\u53f8: \u4eba\u89c1\u4eba\u9a82\u7684\u767e\u5ea6"}], "type": "action"}, {"bonus": {"data": {"nameRight": "\u5d14\u5c0f\u62fd", "name": "first_invited", "nameLeft": "Cecile Liu"}, "type": "animation"}, "data": [{"name": "<Date>", "value": "2015.10.20"}, {"name": "action", "value": "\u9996\u6b21\u83b7\u9080"}, {"name": "from", "value": "\u7528\u6237\u300cCecile Liu\u300d"}, {"name": "question", "value": "2015 \u5e74 10 \u6708\u767e\u5ea6\u4e3a\u4ec0\u4e48\u8981\u6682\u505c\u793e\u4f1a\u62db\u8058\uff1f"}], "type": "action", "date": 1445355593}], "username": "cui-xiao-zhuai", "achievement": {"write_word_len": "1987 \u5b57", "pv": "132 \u4e07\u5b57", "bonus": false, "get_votes_count": "7 \u4e2a", "invited": "2 \u6b21", "give_votes_count": "44 \u4e2a", "collected": "10 \u6b21", "most_voted": "\u7528\u6237\u300cn4mine\u300d", "most_vote": "\u7528\u6237\u300c\u738b\u5c3c\u739b\u300d"}}
-
-                    var t = {
-                        "bonus": {
-                            "\u4e09\u4f53\uff08\u7cfb\u5217\u5c0f\u8bf4\uff09": {
-                                "type": "img",
-                                "data": {
-                                    "name": "santi.png"
-                                },
-                                "id": "santi"
-                            },
-                            "\u7a0b\u5e8f\u5458": {
-                                "type": "img",
-                                "data": {
-                                    "name": "coder.png"
-                                },
-                                "id": "coder"
-                            },
-                            "\u817e\u8baf": {
-                                "type": "img",
-                                "data": {
-                                    "name": "tencent.png"
-                                },
-                                "id": "tencent"
-                            },
-                            "\u5207\u5c14\u897f\uff08Chelsea FC\uff09": {
-                                "type": "rolling",
-                                "data": {
-                                    "name": "soccer.png"
-                                },
-                                "id": "rolling_soccer"
-                            },
-                            "\u5a5a\u59fb": {
-                                "type": "img",
-                                "data": {
-                                    "name": "marry.png"
-                                },
-                                "id": "marry"
-                            }
+                    t.ajax({
+                        url: "/api/data",
+                        success: function(t) {
+                            s(t.bonus), (0, h.initCanvas)(), b["default"].trackAppStart(t.username), n(t)
                         },
-                        "timeline": [{
-                                "date": 1295145152,
-                                "data": [{
-                                    "name": "<Date>",
-                                    "value": "2016-01-30 13:01:01"
-                                }, {
-                                    "bonus": {
-                                        "data": {
-                                            "className": "multiline-img blink",
-                                            "name": "marry.png"
-                                        },
-                                        "type": "img"
-                                    },
-                                    "name": "event",
-                                    "value": "崔小拽开始研究知乎的内容"
-                                }],
-                                "type": "event"
-                            }, {
-                                "date": 1366675200,
-                                "data": [{
-                                    "name": "<Date>",
-                                    "value": "2016-01-30 14:01:01"
-                                }, {
-                                    "bonus": {
-                                        "data": {
-                                            "className": "multiline-img blink",
-                                            "name": "marry.png"
-                                        },
-                                        "type": "img"
-                                    },
-                                    "name": "event",
-                                    "value": "崔小拽down了一版源码"
-                                }],
-                                "type": "event"
-                            }, {
-                                "date": 1369353600,
-                                "data": [{
-                                    "name": "<Date>",
-                                    "value": "2016-01-30 15:01:01"
-                                }, {
-                                    "bonus": {
-                                        "data": {
-                                            "className": "multiline-img blink",
-                                            "name": "marry.png"
-                                        },
-                                        "type": "img"
-                                    },
-                                    "name": "event",
-                                    "value": "崔小拽大概看了一版源码"
-                                }],
-                                "type": "event"
+                        statusCode: {
+                            401: function(t) {
+                                return location.href = "/login"
                             },
-
-                            {
-                                "date": 1396310400,
-                                "data": [{
-                                    "name": "<Date>",
-                                    "value": "2016-01-30 16:01:01"
-                                }, {
-                                    "name": "event",
-                                    "value": "源码格式化"
-                                }],
-                                "type": "event"
-                            }, {
-                                "date": 1369353600,
-                                "data": [{
-                                    "name": "<Date>",
-                                    "value": "2016-01-30 17:01:01"
-                                }, {
-                                    "bonus": {
-                                        "data": {
-                                            "className": "multiline-img blink",
-                                            "name": "zhihudaily.png"
-                                        },
-                                        "type": "img"
-                                    },
-                                    "name": "event",
-                                    "value": "没看懂"
-                                }],
-                                "type": "event"
-                            }, {
-                                "date": 1396310400,
-                                "data": [{
-                                    "name": "<Date>",
-                                    "value": "2016-01-30 17:31:01"
-                                }, {
-                                    "bonus": {
-                                        "data": {
-                                            "className": "multiline-img",
-                                            "name": "liukanshan.gif"
-                                        },
-                                        "type": "img"
-                                    },
-                                    "name": "event",
-                                    "value": "求个js的插件，自己准备做一个"
-                                }],
-                                "type": "event"
+                            451: function(t) {
+                                return location.href = t.getResponseHeader("Location")
                             },
-                            //    {
-                            //    "date": 1440337971,
-                            //    "data": [{"name": "<Date>", "value": "2015.08.23 21:52:51"}, {
-                            //        "name": "action",
-                            //        "value": "\u6ce8\u518c\u6210\u529f"
-                            //    }, {
-                            //        "bonus": {"data": {"name": "register"}, "type": "ascii"},
-                            //        "name": "ID",
-                            //        "value": "不说了，再看看"
-                            //    }],
-                            //    "type": "event"
-                            //},
-                            {
-                                "date": 1440374399,
-                                "end": 1441670399,
-                                "type": "topics",
-                                "data": [{
-                                    "name": "<Date>",
-                                    "value": "2015.08.23-2015.09.07"
-                                }, {
-                                    "name": "试验一下tag",
-                                    "value": ["美女", "php", "java", "javascript", "wow", "愁啥", "瞅你咋地", "gay"]
-                                }]
-                            }, {
-                                "date": 1440383568,
-                                "data": [{
-                                    "name": "<Date>",
-                                    "value": "2015.08.24"
-                                }, {
-                                    "name": "action",
-                                    "value": "到此为止"
-                                }, {
-                                    "name": "question",
-                                    "value": "求相关插件"
-                                }],
-                                "type": "action"
-                            },
-                            // {
-                            //    "date": 1440425142,
-                            //    "data": [{"name": "<Date>", "value": "2015.08.24"}, {
-                            //        "name": "action",
-                            //        "value": "\u9996\u6b21\u8d5e\u540c"
-                            //    }, {"name": "to", "value": "\u7528\u6237\u300c\u6797\u633a\u300d"}, {
-                            //        "name": "answer",
-                            //        "value": "\u300a\u4e09\u4f53\u300b\u597d\u5728\u54ea\u91cc\uff1f"
-                            //    }],
-                            //    "type": "action"
-                            //}, {
-                            //    "date": 1440644169,
-                            //    "data": [{"name": "<Date>", "value": "2015.08.27"}, {
-                            //        "name": "action",
-                            //        "value": "\u9996\u6b21\u6536\u85cf"
-                            //    }, {
-                            //        "name": "answer",
-                            //        "value": "\u5982\u4f55\u8bc4\u4ef7\u300a\u4e09\u4f53\u300b\u7b2c\u4e09\u90e8\u4e2d\u7684\u7a0b\u5fc3\uff1f"
-                            //    }, {"name": "to", "value": "\u7528\u6237\u300c\u5468\u5929\u300d"}],
-                            //    "type": "action"
-                            //}, {
-                            //    "date": 1441619286,
-                            //    "data": [{"name": "<Date>", "value": "2015.09.07"}, {
-                            //        "name": "action",
-                            //        "value": "\u9996\u6b21\u56de\u7b54"
-                            //    }, {
-                            //        "name": "answer",
-                            //        "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"
-                            //    }],
-                            //    "type": "action"
-                            //}, {
-                            //    "date": 1441670399,
-                            //    "end": 1449446399,
-                            //    "type": "topics",
-                            //    "data": [{"name": "<Date>", "value": "2015.09.07-2015.12.06"}, {
-                            //        "name": "favorite topics",
-                            //        "value": ["\u4fe1\u606f\u6280\u672f\uff08IT\uff09", "\u6280\u672f\u535a\u5ba2", "\u7a0b\u5e8f\u5458", "\u6bb5\u5b50", "\u524d\u7aef\u5f00\u53d1", "\u8bbe\u8ba1", "\u5a5a\u59fb", "\u5207\u5c14\u897f\uff08Chelsea FC\uff09", "\u4e09\u4f53\u200a\u2162\u2006:\u2006\u6b7b\u795e\u6c38\u751f", "\u4e92\u8054\u7f51\u884c\u4e1a"]
-                            //    }]
-                            //}, {
-                            //    "date": 1441962760,
-                            //    "data": [{
-                            //        "name": "<Date>",
-                            //        "value": "2015.09.11"
-                            //    }, {
-                            //        "bonus": {"data": {"className": "inline-img", "name": "vote.png"}, "type": "img"},
-                            //        "name": "action",
-                            //        "value": "\u9996\u6b21\u83b7\u5f97\u8d5e\u540c"
-                            //    }, {"name": "from", "value": "\u7528\u6237\u300cfrank\u300d"}, {
-                            //        "name": "answer",
-                            //        "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"
-                            //    }],
-                            //    "type": "action"
-                            //}, {
-                            //    "date": 1442117218,
-                            //    "data": [{"name": "<Date>", "value": "2015.09.13"}, {
-                            //        "name": "action",
-                            //        "value": "\u9996\u6b21\u88ab\u6536\u85cf"
-                            //    }, {
-                            //        "name": "answer",
-                            //        "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"
-                            //    }, {"name": "from", "value": "\u7528\u6237\u300c\u5546\u4ecb\u5b50\u300d"}],
-                            //    "type": "action"
-                            //}, {
-                            //    "date": 1443052800,
-                            //    "data": [{"name": "<Date>", "value": "2015.09.24"}, {
-                            //        "name": "event",
-                            //        "value": "\u300c\u8bfb\u8bfb\u65e5\u62a5\u300d\u4e0a\u7ebf"
-                            //    }],
-                            //    "type": "event"
-                            //}, {
-                            //    "date": 1443104538,
-                            //    "data": [{"name": "<Date>", "value": "2015.09.24"}, {
-                            //        "name": "action",
-                            //        "value": "\u9996\u6b21\u5173\u6ce8\u7528\u6237"
-                            //    }, {"name": "to", "value": "\u7528\u6237\u300c\u738b\u5c3c\u739b\u300d"}],
-                            //    "type": "action"
-                            //}, {
-                            //    "date": 1443397304,
-                            //    "data": [{"name": "<Date>", "value": "2015.09.28"}, {
-                            //        "name": "result",
-                            //        "value": "\u6dfb\u52a0\u5c45\u4f4f\u5730: \u5317\u4eac"
-                            //    }],
-                            //    "type": "action"
-                            //}, {
-                            //    "date": 1443397304,
-                            //    "data": [{"name": "<Date>", "value": "2015.09.28"}, {
-                            //        "name": "result",
-                            //        "value": "\u6dfb\u52a0\u516c\u53f8: \u4eba\u89c1\u4eba\u9a82\u7684\u767e\u5ea6"
-                            //    }],
-                            //    "type": "action"
-                            //}, {
-                            //    "bonus": {
-                            //        "data": {
-                            //            "nameRight": "\u5d14\u5c0f\u62fd",
-                            //            "name": "first_invited",
-                            //            "nameLeft": "Cecile Liu"
-                            //        }, "type": "animation"
-                            //    },
-                            //    "data": [{"name": "<Date>", "value": "2015.10.20"}, {
-                            //        "name": "action",
-                            //        "value": "\u9996\u6b21\u83b7\u9080"
-                            //    }, {"name": "from", "value": "\u7528\u6237\u300cCecile Liu\u300d"}, {
-                            //        "name": "question",
-                            //        "value": "2015 \u5e74 10 \u6708\u767e\u5ea6\u4e3a\u4ec0\u4e48\u8981\u6682\u505c\u793e\u4f1a\u62db\u8058\uff1f"
-                            //    }],
-                            //    "type": "action",
-                            //    "date": 1445355593
-                            //}],
-                        ],
-                        "username": "cui-xiao-zhuai",
-                        "achievement": {
-                            "write_word_len": "111987 \u5b57",
-                            "pv": "111132 \u4e07\u5b57",
-                            "bonus": false,
-                            "get_votes_count": "8888 \u4e2a",
-                            "invited": "444 \u6b21",
-                            "give_votes_count": "4444 \u4e2a",
-                            "collected": "1440 \u6b21",
+                            403: o
                         }
-                    };
-                    s(t.bonus), (0, h.initCanvas)(), b["default"].trackAppStart(t.username), n(t)
-                        //t.ajax({
-                        //    url: "https://2015.zhihu.com/api/data", success: function (t) {
-                        //        s(t.bonus), (0, h.initCanvas)(), b["default"].trackAppStart(t.username), n(t)
-                        //    }, statusCode: {
-                        //        401: function (t) {
-                        //            return location.href = "/login"
-                        //        }, 451: function (t) {
-                        //            return location.href = t.getResponseHeader("Location")
-                        //        }, 403: o
-                        //    }
-                        //})
+                    })
                 },
                 S = function() {
-                    // reponse {"image": "http://pic3.zhimg.com/87e14ba8e2d4758bbab5e9d03e9f840e_r.jpg", "fullname": "\u5d14\u5c0f\u62fd", "title": "Career"}
-                    var t = {
-                        "image": "http://pic3.zhimg.com/87e14ba8e2d4758bbab5e9d03e9f840e_r.jpg",
-                        "fullname": "\u5d14\u5c0f\u62fd",
-                        "title": "Career"
-                    };
-                    //t.get("https://2015.zhihu.com/api/sharing").then(function (t) {
-                    return m["default"].configSharing(t, 0)
-                        //})
+                    t.get("/api/sharing").then(function(t) {
+                        return m["default"].configSharing(t, 0)
+                    })
                 };
             t(document).ready(function() {
                 (0, h.initRem)(), x(), S()
@@ -449,8 +147,8 @@ webpackJsonp([1], {
                             n = e[1];
                         return '<li><span class="left">' + i + '</span><span class="right">' + n + "</span></li>"
                     }).join("");
-                t.salt_club_role && (i += '<li><span class="nacl-club">盐 club ' + t.salt_club_role + '</span><img src="https://2015.zhihu.com/static/img/badge.png" alt="badge" class="badge"></li>');
-                var n = '\n    <section class="achievement' + (g["default"].mobile ? " mobile" : " pc") + '">\n      <img src="static/img/achievement.png" alt="成就标题" class="achievement-title">\n      <div class="achievement-list-wrap">\n        <ul class="achievement-list">\n          ' + i + '\n        </ul>\n      </div>\n      <div class="btn-group hide">\n        <img src="https://2015.zhihu.com/static/img/share.png" alt="分享按钮" class="share-btn">\n      </div>\n    </section>\n  ';
+                t.salt_club_role && (i += '<li><span class="nacl-club">盐 club ' + t.salt_club_role + '</span><img src="/static/img/badge.png" alt="badge" class="badge"></li>');
+                var n = '\n    <section class="achievement' + (g["default"].mobile ? " mobile" : " pc") + '">\n      <img src="static/img/achievement.png" alt="成就标题" class="achievement-title">\n      <div class="achievement-list-wrap">\n        <ul class="achievement-list">\n          ' + i + '\n        </ul>\n      </div>\n      <div class="btn-group hide">\n        <img src="/static/img/share.png" alt="分享按钮" class="share-btn">\n      </div>\n    </section>\n  ';
                 return n
             }
 
@@ -485,7 +183,6 @@ webpackJsonp([1], {
                         }
                     }, n[0], this)
                 }
-
                 var n = [i].map(regeneratorRuntime.mark),
                     s = [],
                     o = e.find("li");
@@ -521,7 +218,6 @@ webpackJsonp([1], {
                 t(n).appendTo(e);
                 a()
             }
-
             var u = function() {
                 function t(t, e) {
                     var i = [],
@@ -541,7 +237,6 @@ webpackJsonp([1], {
                     }
                     return i
                 }
-
                 return function(e, i) {
                     if (Array.isArray(e)) return e;
                     if (Symbol.iterator in Object(e)) return t(e, i);
@@ -592,7 +287,7 @@ webpackJsonp([1], {
                     ["book_salt", "盐书作者次数："],
                     ["book_printed", "纸质书作者次数："]
                 ],
-                I = "https://2015.zhihu.com/static/img/wechat_share.png",
+                I = "/static/img/wechat_share.png",
                 D = "",
                 C = "";
             e["default"] = {
@@ -611,7 +306,6 @@ webpackJsonp([1], {
                     "default": t
                 }
             }
-
             Object.defineProperty(e, "__esModule", {
                 value: !0
             });
@@ -641,7 +335,7 @@ webpackJsonp([1], {
                 },
                 f = function(e) {
                     return t.ajax({
-                        url: "https://2015.zhihu.com/api/ticket/wechat?url=" + a,
+                        url: "/api/ticket/wechat?url=" + a,
                         method: "GET",
                         contentType: "application/json",
                         processData: !1
@@ -700,7 +394,6 @@ webpackJsonp([1], {
                     "default": t
                 }
             }
-
             Object.defineProperty(e, "__esModule", {
                 value: !0
             }), i(205);
@@ -785,7 +478,6 @@ webpackJsonp([1], {
                 for (var s in n) this.options[s] = n[s];
                 this.sizeRatioX = 1, this.sizeRatioY = 1, this.maxPosX = 0, this.maxPosY = 0, this.options.interactive && (this.options.disableTouch || (l.addEvent(this.indicator, "touchstart", this), l.addEvent(e, "touchend", this)), this.options.disablePointer || (l.addEvent(this.indicator, l.prefixPointerEvent("pointerdown"), this), l.addEvent(e, l.prefixPointerEvent("pointerup"), this)), this.options.disableMouse || (l.addEvent(this.indicator, "mousedown", this), l.addEvent(e, "mouseup", this))), this.options.fade && (this.wrapperStyle[l.style.transform] = this.scroller.translateZ, this.wrapperStyle[l.style.transitionDuration] = l.isBadAndroid ? "0.001s" : "0ms", this.wrapperStyle.opacity = "0")
             }
-
             var a = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function(t) {
                     e.setTimeout(t, 1e3 / 60)
                 },
@@ -793,7 +485,6 @@ webpackJsonp([1], {
                     function t(t) {
                         return r === !1 ? !1 : "" === r ? t : r + t.charAt(0).toUpperCase() + t.substr(1)
                     }
-
                     var s = {},
                         o = i.createElement("div").style,
                         r = function() {
@@ -1054,7 +745,6 @@ webpackJsonp([1], {
                     function t(t) {
                         for (var e = a.indicators.length; e--;) t.call(a.indicators[e])
                     }
-
                     var e, i = this.options.interactiveScrollbars,
                         n = "string" != typeof this.options.scrollbars,
                         s = [],
@@ -1275,7 +965,6 @@ webpackJsonp([1], {
                         var p, f, d, m = l.getTime();
                         return m >= u ? (o.isAnimating = !1, o._translate(t, e), void(o.resetPosition(o.options.bounceTime) || o._execEvent("scrollEnd"))) : (m = (m - h) / i, d = n(m), p = (t - r) * d + r, f = (e - c) * d + c, o._translate(p, f), void(o.isAnimating && a(s)))
                     }
-
                     var o = this,
                         r = this.x,
                         c = this.y,
@@ -1439,7 +1128,6 @@ webpackJsonp([1], {
             function o() {
                 return p || s(), p
             }
-
             Object.defineProperty(e, "__esModule", {
                 value: !0
             });
@@ -1463,7 +1151,6 @@ webpackJsonp([1], {
             function i(t, e) {
                 if (!(t instanceof e)) throw new TypeError("Cannot call a class as a function")
             }
-
             var n = function() {
                 function t(t, e) {
                     for (var i = 0; i < e.length; i++) {
@@ -1471,7 +1158,6 @@ webpackJsonp([1], {
                         n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                     }
                 }
-
                 return function(e, i, n) {
                     return i && t(e.prototype, i), n && t(e, n), e
                 }
@@ -1483,7 +1169,6 @@ webpackJsonp([1], {
                 function e(n) {
                     i(this, e), this.$indicator = t(n), this.progress = 0, this.maxProgress = 0
                 }
-
                 return n(e, [{
                     key: "setProgress",
                     value: function(t) {
@@ -1533,7 +1218,6 @@ webpackJsonp([1], {
                     }
                 }), e && (Object.setPrototypeOf ? Object.setPrototypeOf(t, e) : t.__proto__ = e)
             }
-
             var a = function() {
                 function t(t, e) {
                     for (var i = 0; i < e.length; i++) {
@@ -1541,7 +1225,6 @@ webpackJsonp([1], {
                         n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                     }
                 }
-
                 return function(e, i, n) {
                     return i && t(e.prototype, i), n && t(e, n), e
                 }
@@ -1561,7 +1244,6 @@ webpackJsonp([1], {
                         var a = o(this, Object.getPrototypeOf(i).call(this));
                         return a.$elem = t(e), a.content = n, a.remains = n.length, a.paused = !1, a.config = r, a
                     }
-
                     return r(i, e), a(i, [{
                         key: "inject",
                         value: function() {
@@ -1655,7 +1337,6 @@ webpackJsonp([1], {
                     }
                 }), e && (Object.setPrototypeOf ? Object.setPrototypeOf(t, e) : t.__proto__ = e)
             }
-
             var a = function() {
                 function t(t, e) {
                     for (var i = 0; i < e.length; i++) {
@@ -1663,7 +1344,6 @@ webpackJsonp([1], {
                         n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                     }
                 }
-
                 return function(e, i, n) {
                     return i && t(e.prototype, i), n && t(e, n), e
                 }
@@ -1680,7 +1360,6 @@ webpackJsonp([1], {
                         var n = o(this, Object.getPrototypeOf(i).call(this));
                         return n.$elm = t(e), n.$main = t("#main"), n.initHandler(), n
                     }
-
                     return r(i, e), a(i, [{
                         key: "initHandler",
                         value: function() {
@@ -1744,7 +1423,6 @@ webpackJsonp([1], {
         function r(t, e) {
             if (!(t instanceof e)) throw new TypeError("Cannot call a class as a function")
         }
-
         var a = function() {
             function t(t, e) {
                 for (var i = 0; i < e.length; i++) {
@@ -1752,7 +1430,6 @@ webpackJsonp([1], {
                     n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                 }
             }
-
             return function(e, i, n) {
                 return i && t(e.prototype, i), n && t(e, n), e
             }
@@ -1766,7 +1443,6 @@ webpackJsonp([1], {
                 function t(e, i, n) {
                     r(this, t), this.init(e, i, n)
                 }
-
                 return a(t, [{
                     key: "init",
                     value: function(t, e, i) {
@@ -1789,7 +1465,6 @@ webpackJsonp([1], {
                 var t = s(this, Object.getPrototypeOf(e).call(this));
                 return t.particles = [], t.needToDestory = !1, t
             }
-
             return o(e, t), a(e, [{
                 key: "spawnParticles",
                 value: function(t, e, i) {
@@ -1847,7 +1522,6 @@ webpackJsonp([1], {
                 }
             }), e && (Object.setPrototypeOf ? Object.setPrototypeOf(t, e) : t.__proto__ = e)
         }
-
         var a = function() {
             function t(t, e) {
                 for (var i = 0; i < e.length; i++) {
@@ -1855,7 +1529,6 @@ webpackJsonp([1], {
                     n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                 }
             }
-
             return function(e, i, n) {
                 return i && t(e.prototype, i), n && t(e, n), e
             }
@@ -1869,7 +1542,6 @@ webpackJsonp([1], {
                 function e() {
                     return s(this, e), o(this, Object.getPrototypeOf(e).apply(this, arguments))
                 }
-
                 return r(e, t), a(e, [{
                     key: "setup",
                     value: function(t, e, i) {
@@ -1888,7 +1560,6 @@ webpackJsonp([1], {
                     "default": t
                 }
             }
-
             Object.defineProperty(e, "__esModule", {
                 value: !0
             });
@@ -1901,12 +1572,12 @@ webpackJsonp([1], {
                 $bindTo: null,
                 init: function(e) {
                     var i = this;
-                    this.$bindBtn = t(e), t.get("https://2015.zhihu.com/api/qrcode").always(function(t) {
+                    this.$bindBtn = t(e), t.get("/api/qrcode").always(function(t) {
                         i.qrCode = t.responseText, i.createDom(), i.bindEvent_()
                     })
                 },
                 createDom: function() {
-                    var e = '\n      <div class="share-modal-wrap">\n        <div class="share-modal">\n          <ul>\n            <li class="share-modal--item weibo"><img src="https://2015.zhihu.com/static/img/weibo-icon.png" class="icon">点击分享到微博</li>\n            <li class="share-modal--item"><img src="https://2015.zhihu.com/static/img/wechat-icon.png" class="icon">扫码分享到微信</li>\n          </ul>\n          <img src="' + this.qrCode + '" class="qrcode">\n        </div>\n      </div>\n    ';
+                    var e = '\n      <div class="share-modal-wrap">\n        <div class="share-modal">\n          <ul>\n            <li class="share-modal--item weibo"><img src="/static/img/weibo-icon.png" class="icon">点击分享到微博</li>\n            <li class="share-modal--item"><img src="/static/img/wechat-icon.png" class="icon">扫码分享到微信</li>\n          </ul>\n          <img src="' + this.qrCode + '" class="qrcode">\n        </div>\n      </div>\n    ';
                     this.$elm = t(e).appendTo(document.body)
                 },
                 bindEvent_: function() {
@@ -1956,7 +1627,6 @@ webpackJsonp([1], {
                 }
             }), e && (Object.setPrototypeOf ? Object.setPrototypeOf(t, e) : t.__proto__ = e)
         }
-
         var a = function() {
             function t(t, e) {
                 for (var i = 0; i < e.length; i++) {
@@ -1964,7 +1634,6 @@ webpackJsonp([1], {
                     n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                 }
             }
-
             return function(e, i, n) {
                 return i && t(e.prototype, i), n && t(e, n), e
             }
@@ -2009,7 +1678,6 @@ webpackJsonp([1], {
                     var n = o(this, Object.getPrototypeOf(e).call(this));
                     return n.$el = t, n.data = i, n.loging = !1, n.ended = !1, n.indexNow = 0, n.progressBar = S["default"].getInstance(), n.foreground = g["default"].getInstance(), _["default"].init(), n
                 }
-
                 return r(e, t), a(e, [{
                     key: "showAchievement",
                     value: function() {
@@ -2056,7 +1724,6 @@ webpackJsonp([1], {
                                 }
                             }, n[0], this)
                         }
-
                         var n = [i].map(regeneratorRuntime.mark),
                             s = this.data.timeline,
                             o = Math.min(this.indexNow + t, s.length);
@@ -2117,7 +1784,6 @@ webpackJsonp([1], {
                 }
             }), e && (Object.setPrototypeOf ? Object.setPrototypeOf(t, e) : t.__proto__ = e)
         }
-
         var a = function() {
             function t(t, e) {
                 for (var i = 0; i < e.length; i++) {
@@ -2125,7 +1791,6 @@ webpackJsonp([1], {
                     n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                 }
             }
-
             return function(e, i, n) {
                 return i && t(e.prototype, i), n && t(e, n), e
             }
@@ -2145,7 +1810,6 @@ webpackJsonp([1], {
                     var t = o(this, Object.getPrototypeOf(e).call(this));
                     return t.taskQueue = [], t
                 }
-
                 return r(e, t), a(e, [{
                     key: "excTasks",
                     value: function() {
@@ -2186,7 +1850,6 @@ webpackJsonp([1], {
             function s(t, e, i) {
                 return y[t](e, i)
             }
-
             Object.defineProperty(e, "__esModule", {
                 value: !0
             });
@@ -2292,7 +1955,6 @@ webpackJsonp([1], {
                 }
             }), e && (Object.setPrototypeOf ? Object.setPrototypeOf(t, e) : t.__proto__ = e)
         }
-
         var a = function() {
             function t(t, e) {
                 for (var i = 0; i < e.length; i++) {
@@ -2300,7 +1962,6 @@ webpackJsonp([1], {
                     n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                 }
             }
-
             return function(e, i, n) {
                 return i && t(e.prototype, i), n && t(e, n), e
             }
@@ -2328,7 +1989,6 @@ webpackJsonp([1], {
                     var a = o(this, Object.getPrototypeOf(e).call(this));
                     return a.img = new Image, a.img.src = t.url, a.width = t.width, a.height = t.height, a.velocity = i, a.force = n, a.position = r, a.groundHeight = 50, a.angle = 0, a.angleVelocity = 5 * Math.PI / 180, a
                 }
-
                 return r(e, t), a(e, [{
                     key: "isOutOfScreen",
                     value: function() {
@@ -2380,7 +2040,6 @@ webpackJsonp([1], {
                 }
             }), e && (Object.setPrototypeOf ? Object.setPrototypeOf(t, e) : t.__proto__ = e)
         }
-
         var a = function() {
             function t(t, e) {
                 for (var i = 0; i < e.length; i++) {
@@ -2388,7 +2047,6 @@ webpackJsonp([1], {
                     n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                 }
             }
-
             return function(e, i, n) {
                 return i && t(e.prototype, i), n && t(e, n), e
             }
@@ -2411,7 +2069,6 @@ webpackJsonp([1], {
                     var a = o(this, Object.getPrototypeOf(e).call(this));
                     return a.img = new Image, a.img.src = t.url, a.r = t.r, a.velocity = i, a.friction = n, a.position = r, a.angle = 0, a.angleVelocity = a.velocity / a.r, a
                 }
-
                 return r(e, t), a(e, [{
                     key: "isOutOfScreen",
                     value: function() {
@@ -2464,7 +2121,6 @@ webpackJsonp([1], {
                     }
                 }), e && (Object.setPrototypeOf ? Object.setPrototypeOf(t, e) : t.__proto__ = e)
             }
-
             var a = function() {
                 function t(t, e) {
                     for (var i = 0; i < e.length; i++) {
@@ -2472,7 +2128,6 @@ webpackJsonp([1], {
                         n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                     }
                 }
-
                 return function(e, i, n) {
                     return i && t(e.prototype, i), n && t(e, n), e
                 }
@@ -2490,7 +2145,6 @@ webpackJsonp([1], {
                         var r = o(this, Object.getPrototypeOf(i).call(this));
                         return r.framesData = null, r.currentFrameIndex = 0, r.speed = null, r.style = null, r.name = e, r.loop = 0, r.$elm = t('<pre class="ASCIImation"></pre>'), r.appendTo = n, r.loadData(e), r
                     }
-
                     return r(i, e), a(i, [{
                         key: "loadData",
                         value: function(t) {
@@ -2562,7 +2216,7 @@ webpackJsonp([1], {
                             i.img[t] = s, e(s)
                         }, s.onerror = function() {
                             return n("image " + t + " can not load")
-                        }, s.src = "https://2015.zhihu.com/static/img/" + t
+                        }, s.src = "/static/img/" + t
                     })
                 },
                 s = function(e) {
@@ -2572,7 +2226,7 @@ webpackJsonp([1], {
                             n(o)
                         } catch (r) {
                             s("get preload json failed")
-                        } else t.get("https://2015.zhihu.com/static/ascii/" + e + ".json").then(function(t) {
+                        } else t.get("/static/ascii/" + e + ".json").then(function(t) {
                             try {
                                 localStorage.setItem(e, JSON.stringify(t)), i.json[e] = t
                             } catch (s) {}
@@ -2592,7 +2246,6 @@ webpackJsonp([1], {
             function n(t, e) {
                 if (!(t instanceof e)) throw new TypeError("Cannot call a class as a function")
             }
-
             var s = function() {
                 function t(t, e) {
                     for (var i = 0; i < e.length; i++) {
@@ -2600,7 +2253,6 @@ webpackJsonp([1], {
                         n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                     }
                 }
-
                 return function(e, i, n) {
                     return i && t(e.prototype, i), n && t(e, n), e
                 }
@@ -2614,7 +2266,6 @@ webpackJsonp([1], {
                     function e(t, i) {
                         n(this, e), this.url = "static/img/" + i.name, this.style = i.style || {}, this.className = i.className && i.className + " img-bonus" || "img-bonus", this.removeInSecs = i.removeInSecs, this.$elem = null, this.appendTo = t, this.ready = !1, this.name = i.name, this.show = this.show.bind(this)
                     }
-
                     return s(e, [{
                         key: "getReady",
                         value: function() {
@@ -2661,7 +2312,6 @@ webpackJsonp([1], {
                     })
                 })
             }
-
             Object.defineProperty(e, "__esModule", {
                 value: !0
             });
@@ -2704,7 +2354,6 @@ webpackJsonp([1], {
                     }
                 }), e && (Object.setPrototypeOf ? Object.setPrototypeOf(t, e) : t.__proto__ = e)
             }
-
             var a = function() {
                 function t(t, e) {
                     for (var i = 0; i < e.length; i++) {
@@ -2712,7 +2361,6 @@ webpackJsonp([1], {
                         n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                     }
                 }
-
                 return function(e, i, n) {
                     return i && t(e.prototype, i), n && t(e, n), e
                 }
@@ -2730,7 +2378,6 @@ webpackJsonp([1], {
                         var n = o(this, Object.getPrototypeOf(i).call(this));
                         return n.data = t, n.bonus = e, n
                     }
-
                     return r(i, e), a(i, [{
                         key: "createDom",
                         value: function(t) {
@@ -2804,7 +2451,6 @@ webpackJsonp([1], {
                     }
                 }), e && (Object.setPrototypeOf ? Object.setPrototypeOf(t, e) : t.__proto__ = e)
             }
-
             var a = function() {
                 function t(t, e) {
                     for (var i = 0; i < e.length; i++) {
@@ -2812,7 +2458,6 @@ webpackJsonp([1], {
                         n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                     }
                 }
-
                 return function(e, i, n) {
                     return i && t(e.prototype, i), n && t(e, n), e
                 }
@@ -2835,7 +2480,6 @@ webpackJsonp([1], {
                         var n = o(this, Object.getPrototypeOf(i).call(this));
                         return n.data = t, n.config = e, n.injector = null, n
                     }
-
                     return r(i, e), a(i, [{
                         key: "createDom",
                         value: function(t) {
@@ -2895,7 +2539,6 @@ webpackJsonp([1], {
                     }
                 }), e && (Object.setPrototypeOf ? Object.setPrototypeOf(t, e) : t.__proto__ = e)
             }
-
             var a = function() {
                 function t(t, e) {
                     for (var i = 0; i < e.length; i++) {
@@ -2903,7 +2546,6 @@ webpackJsonp([1], {
                         n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n)
                     }
                 }
-
                 return function(e, i, n) {
                     return i && t(e.prototype, i), n && t(e, n), e
                 }
@@ -2923,7 +2565,6 @@ webpackJsonp([1], {
                         var n = o(this, Object.getPrototypeOf(i).call(this));
                         return n.data = t, n.bonusAll = e, n.topicsToInsert = [], n
                     }
-
                     return r(i, e), a(i, [{
                         key: "createDom",
                         value: function(t) {
