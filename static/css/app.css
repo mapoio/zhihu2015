@@ -5,7 +5,7 @@
     left: 0;
     bottom: 0;
     z-index: 999;
-    background: url(https://2015.zhihu.com/static/img/share/arrow-up.png) 92% 3% no-repeat rgba(0, 0, 0, .5);
+    background: url(/static/img/share/arrow-up.png) 92% 3% no-repeat rgba(0, 0, 0, .5);
     background-size: 110.5px 75px;
     visibility: hidden;
     opacity: 0;
@@ -19,13 +19,13 @@
 }
 
 html.inapp .wechat-hint {
-    background-image: url(https://2015.zhihu.com/static/img/share/arrow-down.png);
+    background-image: url(/static/img/share/arrow-down.png);
     background-position: 92% 97%;
     background-size: 110.5px 77.5px
 }
 
 html.ios.safari:not(.inapp):not(.mobilechrome) .wechat-hint {
-    background-image: url(https://2015.zhihu.com/static/img/share/arrow-center.png);
+    background-image: url(/static/img/share/arrow-center.png);
     background-position: 50% 97%;
     background-size: 63.5px 87px
 }
