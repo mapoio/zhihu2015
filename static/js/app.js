@@ -13,7 +13,7 @@ webpackJsonp([1], {
                 e.timeline.unshift({
                     type: "text",
                     data: {
-                        text: "Username: " + "端午节快乐" + "\nPassword: ×××××××××\nACCESS TO SYSTEM\n再酷炫一行\n再来一行"
+                        text: "Username: " + "端午节快乐" + "\nPassword: ***********\nACCESS TO SYSTEM\n再酷炫一行\n再来一行"
                     },
                     config: {
                         effect: !0,
@@ -120,12 +120,12 @@ webpackJsonp([1], {
                                 },
                                 "id": "rolling_soccer"
                             },
-                            "\u5a5a\u59fb": {
-                                "type": "img",
+                            "gay": {
+                                "type": "img-bonus",
                                 "data": {
-                                    "name": "marry.png"
+                                    "name": "gay.png"
                                 },
-                                "id": "marry"
+                                "id": "gay"
                             }
                         },
                         "timeline": [{
@@ -137,7 +137,7 @@ webpackJsonp([1], {
                                     "bonus": {
                                         "data": {
                                             "className": "multiline-img blink",
-                                            "name": "marry.png"
+                                            "name": "gay.png"
                                         },
                                         "type": "img"
                                     },
@@ -246,7 +246,7 @@ webpackJsonp([1], {
                                     "name": "<Date>",
                                     "value": "2015.08.23-2015.09.07"
                                 }, {
-                                    "name": "试验一下tag",
+                                    "name": "favorite topics",
                                     "value": ["美女", "php", "java", "javascript", "wow", "愁啥", "瞅你咋地", "gay"]
                                 }]
                             }, {
