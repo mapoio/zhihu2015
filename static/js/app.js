@@ -13,7 +13,7 @@ webpackJsonp([1], {
                 e.timeline.unshift({
                     type: "text",
                     data: {
-                        text: "Username: " + "端午节快乐" + "\nPassword: ***********\nACCESS TO SYSTEM\n再酷炫一行\n再来一行"
+                        text: "Username: " + "王一鸣" + "\nPassword: ***********\nACCESS TO SYSTEM\n生日快乐\n21岁啦，有点长耐心看完哦\n在最美好的时光，我们一起奋斗过\n加油，兄弟\n我们仍在一起奋斗"
                     },
                     config: {
                         effect: !0,
@@ -88,7 +88,7 @@ webpackJsonp([1], {
             i(238), g["default"].init(), b["default"].init();
             var x = function() {
 
-                    // reponse :{"bonus": {"\u4e09\u4f53\uff08\u7cfb\u5217\u5c0f\u8bf4\uff09": {"type": "img", "data": {"name": "santi.png"}, "id": "santi"}, "\u7a0b\u5e8f\u5458": {"type": "img", "data": {"name": "coder.png"}, "id": "coder"}, "\u817e\u8baf": {"type": "img", "data": {"name": "tencent.png"}, "id": "tencent"}, "\u5207\u5c14\u897f\uff08Chelsea FC\uff09": {"type": "rolling", "data": {"name": "soccer.png"}, "id": "rolling_soccer"}, "\u5a5a\u59fb": {"type": "img", "data": {"name": "marry.png"}, "id": "marry"}}, "timeline": [{"date": 1295145152, "data": [{"name": "<Date>", "value": "2011.01.26 02:32:32"}, {"bonus": {"data": {"className": "multiline-img blink", "name": "release.png"}, "type": "img"}, "name": "event", "value": "\u77e5\u4e4e\u6b63\u5f0f\u4e0a\u7ebf"}], "type": "event"}, {"date": 1366675200, "data": [{"name": "<Date>", "value": "2013.04.23"}, {"name": "event", "value": "\u5f00\u653e\u6ce8\u518c"}], "type": "event"}, {"date": 1369353600, "data": [{"name": "<Date>", "value": "2013.05.24"}, {"bonus": {"data": {"className": "multiline-img blink", "name": "zhihudaily.png"}, "type": "img"}, "name": "event", "value": "\u300c\u77e5\u4e4e\u65e5\u62a5\u300d\u6b63\u5f0f\u4e0a\u7ebf"}], "type": "event"}, {"date": 1396310400, "data": [{"name": "<Date>", "value": "2014.04.01"}, {"bonus": {"data": {"className": "multiline-img", "name": "liukanshan.gif"}, "type": "img"}, "name": "event", "value": "\u5218\u770b\u5c71\u52a0\u5165\u77e5\u4e4e"}], "type": "event"}, {"date": 1440337971, "data": [{"name": "<Date>", "value": "2015.08.23 21:52:51"}, {"name": "action", "value": "\u6ce8\u518c\u6210\u529f"}, {"bonus": {"data": {"name": "register"}, "type": "ascii"}, "name": "ID", "value": "\u5d14\u5c0f\u62fd * \u7b2c 33750721 \u53f7\u7528\u6237 *"}], "type": "action"}, {"date": 1440374399, "end": 1441670399, "type": "topics", "data": [{"name": "<Date>", "value": "2015.08.23-2015.09.07"}, {"name": "favorite topics", "value": ["\u817e\u8baf", "\u79d1\u5e7b\u5c0f\u8bf4", "\u79d1\u5e7b", "\u4eba\u6c11\u5e01\u6536\u85cf", "\u7280\u725b\u6545\u4e8b", "\u4e09\u4f53\uff08\u7cfb\u5217\u5c0f\u8bf4\uff09", "\u4e09\u4f53\u200a\u2162\u2006:\u2006\u6b7b\u795e\u6c38\u751f", "\u524d\u7aef\u6846\u67b6", "\u56fe\u7247\u7248\u6743", "\u521b\u4e1a"]}]}, {"date": 1440383568, "data": [{"name": "<Date>", "value": "2015.08.24"}, {"name": "action", "value": "\u9996\u6b21\u5173\u6ce8\u95ee\u9898"}, {"name": "question", "value": "\u8c08\u604b\u7231\u65f6\u603b\u5fcd\u4e0d\u4f4f\u300c\u4f5c\u300d\uff0c\u8981\u600e\u4e48\u529e\u624d\u597d\uff1f"}], "type": "action"}, {"date": 1440425142, "data": [{"name": "<Date>", "value": "2015.08.24"}, {"name": "action", "value": "\u9996\u6b21\u8d5e\u540c"}, {"name": "to", "value": "\u7528\u6237\u300c\u6797\u633a\u300d"}, {"name": "answer", "value": "\u300a\u4e09\u4f53\u300b\u597d\u5728\u54ea\u91cc\uff1f"}], "type": "action"}, {"date": 1440644169, "data": [{"name": "<Date>", "value": "2015.08.27"}, {"name": "action", "value": "\u9996\u6b21\u6536\u85cf"}, {"name": "answer", "value": "\u5982\u4f55\u8bc4\u4ef7\u300a\u4e09\u4f53\u300b\u7b2c\u4e09\u90e8\u4e2d\u7684\u7a0b\u5fc3\uff1f"}, {"name": "to", "value": "\u7528\u6237\u300c\u5468\u5929\u300d"}], "type": "action"}, {"date": 1441619286, "data": [{"name": "<Date>", "value": "2015.09.07"}, {"name": "action", "value": "\u9996\u6b21\u56de\u7b54"}, {"name": "answer", "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"}], "type": "action"}, {"date": 1441670399, "end": 1449446399, "type": "topics", "data": [{"name": "<Date>", "value": "2015.09.07-2015.12.06"}, {"name": "favorite topics", "value": ["\u4fe1\u606f\u6280\u672f\uff08IT\uff09", "\u6280\u672f\u535a\u5ba2", "\u7a0b\u5e8f\u5458", "\u6bb5\u5b50", "\u524d\u7aef\u5f00\u53d1", "\u8bbe\u8ba1", "\u5a5a\u59fb", "\u5207\u5c14\u897f\uff08Chelsea FC\uff09", "\u4e09\u4f53\u200a\u2162\u2006:\u2006\u6b7b\u795e\u6c38\u751f", "\u4e92\u8054\u7f51\u884c\u4e1a"]}]}, {"date": 1441962760, "data": [{"name": "<Date>", "value": "2015.09.11"}, {"bonus": {"data": {"className": "inline-img", "name": "vote.png"}, "type": "img"}, "name": "action", "value": "\u9996\u6b21\u83b7\u5f97\u8d5e\u540c"}, {"name": "from", "value": "\u7528\u6237\u300cfrank\u300d"}, {"name": "answer", "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"}], "type": "action"}, {"date": 1442117218, "data": [{"name": "<Date>", "value": "2015.09.13"}, {"name": "action", "value": "\u9996\u6b21\u88ab\u6536\u85cf"}, {"name": "answer", "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"}, {"name": "from", "value": "\u7528\u6237\u300c\u5546\u4ecb\u5b50\u300d"}], "type": "action"}, {"date": 1443052800, "data": [{"name": "<Date>", "value": "2015.09.24"}, {"name": "event", "value": "\u300c\u8bfb\u8bfb\u65e5\u62a5\u300d\u4e0a\u7ebf"}], "type": "event"}, {"date": 1443104538, "data": [{"name": "<Date>", "value": "2015.09.24"}, {"name": "action", "value": "\u9996\u6b21\u5173\u6ce8\u7528\u6237"}, {"name": "to", "value": "\u7528\u6237\u300c\u738b\u5c3c\u739b\u300d"}], "type": "action"}, {"date": 1443397304, "data": [{"name": "<Date>", "value": "2015.09.28"}, {"name": "result", "value": "\u6dfb\u52a0\u5c45\u4f4f\u5730: \u5317\u4eac"}], "type": "action"}, {"date": 1443397304, "data": [{"name": "<Date>", "value": "2015.09.28"}, {"name": "result", "value": "\u6dfb\u52a0\u516c\u53f8: \u4eba\u89c1\u4eba\u9a82\u7684\u767e\u5ea6"}], "type": "action"}, {"bonus": {"data": {"nameRight": "\u5d14\u5c0f\u62fd", "name": "first_invited", "nameLeft": "Cecile Liu"}, "type": "animation"}, "data": [{"name": "<Date>", "value": "2015.10.20"}, {"name": "action", "value": "\u9996\u6b21\u83b7\u9080"}, {"name": "from", "value": "\u7528\u6237\u300cCecile Liu\u300d"}, {"name": "question", "value": "2015 \u5e74 10 \u6708\u767e\u5ea6\u4e3a\u4ec0\u4e48\u8981\u6682\u505c\u793e\u4f1a\u62db\u8058\uff1f"}], "type": "action", "date": 1445355593}], "username": "cui-xiao-zhuai", "achievement": {"write_word_len": "1987 \u5b57", "pv": "132 \u4e07\u5b57", "bonus": false, "get_votes_count": "7 \u4e2a", "invited": "2 \u6b21", "give_votes_count": "44 \u4e2a", "collected": "10 \u6b21", "most_voted": "\u7528\u6237\u300cn4mine\u300d", "most_vote": "\u7528\u6237\u300c\u738b\u5c3c\u739b\u300d"}}
+                    // reponse :{"bonus": {"\u4e09\u4f53\uff08\u7cfb\u5217\u5c0f\u8bf4\uff09": {"type": "img", "data": {"name": "santi.png"}, "id": "santi"}, "\u7a0b\u5e8f\u5458": {"type": "img", "data": {"name": "coder.png"}, "id": "coder"}, "\u817e\u8baf": {"type": "img", "data": {"name": "tencent.png"}, "id": "tencent"}, "\u5207\u5c14\u897f\uff08Chelsea FC\uff09": {"type": "rolling", "data": {"name": "soccer.png"}, "id": "rolling_soccer"}, "\u5a5a\u59fb": {"type": "img", "data": {"name": "marry.png"}, "id": "marry"}}, "timeline": [{"date": 1295145152, "data": [{"name": "时间", "value": "2011.01.26 02:32:32"}, {"bonus": {"data": {"className": "multiline-img blink", "name": "release.png"}, "type": "img"}, "name": "动态", "value": "\u77e5\u4e4e\u6b63\u5f0f\u4e0a\u7ebf"}], "type": "event"}, {"date": 1366675200, "data": [{"name": "时间", "value": "2013.04.23"}, {"name": "动态", "value": "\u5f00\u653e\u6ce8\u518c"}], "type": "event"}, {"date": 1369353600, "data": [{"name": "时间", "value": "2013.05.24"}, {"bonus": {"data": {"className": "multiline-img blink", "name": "zhihudaily.png"}, "type": "img"}, "name": "动态", "value": "\u300c\u77e5\u4e4e\u65e5\u62a5\u300d\u6b63\u5f0f\u4e0a\u7ebf"}], "type": "event"}, {"date": 1396310400, "data": [{"name": "时间", "value": "2014.04.01"}, {"bonus": {"data": {"className": "multiline-img", "name": "liukanshan.gif"}, "type": "img"}, "name": "动态", "value": "\u5218\u770b\u5c71\u52a0\u5165\u77e5\u4e4e"}], "type": "event"}, {"date": 1440337971, "data": [{"name": "时间", "value": "2015.08.23 21:52:51"}, {"name": "action", "value": "\u6ce8\u518c\u6210\u529f"}, {"bonus": {"data": {"name": "register"}, "type": "ascii"}, "name": "ID", "value": "\u5d14\u5c0f\u62fd * \u7b2c 33750721 \u53f7\u7528\u6237 *"}], "type": "action"}, {"date": 1440374399, "end": 1441670399, "type": "topics", "data": [{"name": "时间", "value": "2015.08.23-2015.09.07"}, {"name": "favorite topics", "value": ["\u817e\u8baf", "\u79d1\u5e7b\u5c0f\u8bf4", "\u79d1\u5e7b", "\u4eba\u6c11\u5e01\u6536\u85cf", "\u7280\u725b\u6545\u4e8b", "\u4e09\u4f53\uff08\u7cfb\u5217\u5c0f\u8bf4\uff09", "\u4e09\u4f53\u200a\u2162\u2006:\u2006\u6b7b\u795e\u6c38\u751f", "\u524d\u7aef\u6846\u67b6", "\u56fe\u7247\u7248\u6743", "\u521b\u4e1a"]}]}, {"date": 1440383568, "data": [{"name": "时间", "value": "2015.08.24"}, {"name": "action", "value": "\u9996\u6b21\u5173\u6ce8\u95ee\u9898"}, {"name": "question", "value": "\u8c08\u604b\u7231\u65f6\u603b\u5fcd\u4e0d\u4f4f\u300c\u4f5c\u300d\uff0c\u8981\u600e\u4e48\u529e\u624d\u597d\uff1f"}], "type": "action"}, {"date": 1440425142, "data": [{"name": "时间", "value": "2015.08.24"}, {"name": "action", "value": "\u9996\u6b21\u8d5e\u540c"}, {"name": "to", "value": "\u7528\u6237\u300c\u6797\u633a\u300d"}, {"name": "answer", "value": "\u300a\u4e09\u4f53\u300b\u597d\u5728\u54ea\u91cc\uff1f"}], "type": "action"}, {"date": 1440644169, "data": [{"name": "时间", "value": "2015.08.27"}, {"name": "action", "value": "\u9996\u6b21\u6536\u85cf"}, {"name": "answer", "value": "\u5982\u4f55\u8bc4\u4ef7\u300a\u4e09\u4f53\u300b\u7b2c\u4e09\u90e8\u4e2d\u7684\u7a0b\u5fc3\uff1f"}, {"name": "to", "value": "\u7528\u6237\u300c\u5468\u5929\u300d"}], "type": "action"}, {"date": 1441619286, "data": [{"name": "时间", "value": "2015.09.07"}, {"name": "action", "value": "\u9996\u6b21\u56de\u7b54"}, {"name": "answer", "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"}], "type": "action"}, {"date": 1441670399, "end": 1449446399, "type": "topics", "data": [{"name": "时间", "value": "2015.09.07-2015.12.06"}, {"name": "favorite topics", "value": ["\u4fe1\u606f\u6280\u672f\uff08IT\uff09", "\u6280\u672f\u535a\u5ba2", "\u7a0b\u5e8f\u5458", "\u6bb5\u5b50", "\u524d\u7aef\u5f00\u53d1", "\u8bbe\u8ba1", "\u5a5a\u59fb", "\u5207\u5c14\u897f\uff08Chelsea FC\uff09", "\u4e09\u4f53\u200a\u2162\u2006:\u2006\u6b7b\u795e\u6c38\u751f", "\u4e92\u8054\u7f51\u884c\u4e1a"]}]}, {"date": 1441962760, "data": [{"name": "时间", "value": "2015.09.11"}, {"bonus": {"data": {"className": "inline-img", "name": "vote.png"}, "type": "img"}, "name": "action", "value": "\u9996\u6b21\u83b7\u5f97\u8d5e\u540c"}, {"name": "from", "value": "\u7528\u6237\u300cfrank\u300d"}, {"name": "answer", "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"}], "type": "action"}, {"date": 1442117218, "data": [{"name": "时间", "value": "2015.09.13"}, {"name": "action", "value": "\u9996\u6b21\u88ab\u6536\u85cf"}, {"name": "answer", "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"}, {"name": "from", "value": "\u7528\u6237\u300c\u5546\u4ecb\u5b50\u300d"}], "type": "action"}, {"date": 1443052800, "data": [{"name": "时间", "value": "2015.09.24"}, {"name": "动态", "value": "\u300c\u8bfb\u8bfb\u65e5\u62a5\u300d\u4e0a\u7ebf"}], "type": "event"}, {"date": 1443104538, "data": [{"name": "时间", "value": "2015.09.24"}, {"name": "action", "value": "\u9996\u6b21\u5173\u6ce8\u7528\u6237"}, {"name": "to", "value": "\u7528\u6237\u300c\u738b\u5c3c\u739b\u300d"}], "type": "action"}, {"date": 1443397304, "data": [{"name": "时间", "value": "2015.09.28"}, {"name": "result", "value": "\u6dfb\u52a0\u5c45\u4f4f\u5730: \u5317\u4eac"}], "type": "action"}, {"date": 1443397304, "data": [{"name": "时间", "value": "2015.09.28"}, {"name": "result", "value": "\u6dfb\u52a0\u516c\u53f8: \u4eba\u89c1\u4eba\u9a82\u7684\u767e\u5ea6"}], "type": "action"}, {"bonus": {"data": {"nameRight": "\u5d14\u5c0f\u62fd", "name": "first_invited", "nameLeft": "Cecile Liu"}, "type": "animation"}, "data": [{"name": "时间", "value": "2015.10.20"}, {"name": "action", "value": "\u9996\u6b21\u83b7\u9080"}, {"name": "from", "value": "\u7528\u6237\u300cCecile Liu\u300d"}, {"name": "question", "value": "2015 \u5e74 10 \u6708\u767e\u5ea6\u4e3a\u4ec0\u4e48\u8981\u6682\u505c\u793e\u4f1a\u62db\u8058\uff1f"}], "type": "action", "date": 1445355593}], "username": "cui-xiao-zhuai", "achievement": {"write_word_len": "1987 \u5b57", "pv": "132 \u4e07\u5b57", "bonus": false, "get_votes_count": "7 \u4e2a", "invited": "2 \u6b21", "give_votes_count": "44 \u4e2a", "collected": "10 \u6b21", "most_voted": "\u7528\u6237\u300cn4mine\u300d", "most_vote": "\u7528\u6237\u300c\u738b\u5c3c\u739b\u300d"}}
 
                     var t = {
                         "bonus": {
@@ -99,7 +99,7 @@ webpackJsonp([1], {
                                 },
                                 "id": "santi"
                             },
-                            "\u7a0b\u5e8f\u5458": {
+                            "\u4eba\u597d\uff0c\u50cf\u5927\u7329\u7329": {
                                 "type": "img",
                                 "data": {
                                     "name": "coder.png"
@@ -121,7 +121,7 @@ webpackJsonp([1], {
                                 "id": "rolling_soccer"
                             },
                             "gay": {
-                                "type": "img-bonus",
+                                "type": "img",
                                 "data": {
                                     "name": "gay.png"
                                 },
@@ -131,8 +131,8 @@ webpackJsonp([1], {
                         "timeline": [{
                                 "date": 1295145152,
                                 "data": [{
-                                    "name": "<Date>",
-                                    "value": "2016-01-30 13:01:01"
+                                    "name": "时间",
+                                    "value": "2013-04-13 13:01:01"
                                 }, {
                                     "bonus": {
                                         "data": {
@@ -141,32 +141,40 @@ webpackJsonp([1], {
                                         },
                                         "type": "img"
                                     },
-                                    "name": "event",
-                                    "value": "崔小拽开始研究知乎的内容"
-                                }],
+                                    "name": "动态",
+                                    "value": "第一次在五中画室认识看到你"
+                                }, {
+                                    "name": "心情",
+                                    "value": "第一次认识没怎么注意到你"
+                                }
+                              ],
                                 "type": "event"
                             }, {
                                 "date": 1366675200,
                                 "data": [{
-                                    "name": "<Date>",
-                                    "value": "2016-01-30 14:01:01"
+                                    "name": "时间",
+                                    "value": "2013-06-22 14:01:01"
                                 }, {
                                     "bonus": {
                                         "data": {
                                             "className": "multiline-img blink",
-                                            "name": "marry.png"
+                                            "name": "vote.png"
                                         },
                                         "type": "img"
                                     },
-                                    "name": "event",
-                                    "value": "崔小拽down了一版源码"
-                                }],
+                                    "name": "动态",
+                                    "value": "五中美术生前往长沙众志培训"
+                                }, {
+                                    "name": "心情",
+                                    "value": "其实那个时候好开心终于不用待在五中了"
+                                }
+],
                                 "type": "event"
                             }, {
                                 "date": 1369353600,
                                 "data": [{
-                                    "name": "<Date>",
-                                    "value": "2016-01-30 15:01:01"
+                                    "name": "时间",
+                                    "value": "2013-12-21 18:00:00"
                                 }, {
                                     "bonus": {
                                         "data": {
@@ -175,27 +183,35 @@ webpackJsonp([1], {
                                         },
                                         "type": "img"
                                     },
-                                    "name": "event",
-                                    "value": "崔小拽大概看了一版源码"
-                                }],
+                                    "name": "动态",
+                                    "value": "美术联考的日子，记得我们全挂"
+                                }, {
+                                    "name": "心情",
+                                    "value": "当时很开心，全部都挂了"
+                                }
+],
                                 "type": "event"
                             },
 
                             {
                                 "date": 1396310400,
                                 "data": [{
-                                    "name": "<Date>",
-                                    "value": "2016-01-30 16:01:01"
+                                    "name": "时间",
+                                    "value": "2014-06-08 18:00:00"
                                 }, {
-                                    "name": "event",
-                                    "value": "源码格式化"
-                                }],
+                                    "name": "动态",
+                                    "value": "第一次高考，百日复习都是扯淡的"
+                                }, {
+                                    "name": "心情",
+                                    "value": "终于认识到你的老师草包，太搞笑了"
+                                }
+],
                                 "type": "event"
                             }, {
                                 "date": 1369353600,
                                 "data": [{
-                                    "name": "<Date>",
-                                    "value": "2016-01-30 17:01:01"
+                                    "name": "时间",
+                                    "value": "2014-06-9 17:01:01"
                                 }, {
                                     "bonus": {
                                         "data": {
@@ -204,15 +220,19 @@ webpackJsonp([1], {
                                         },
                                         "type": "img"
                                     },
-                                    "name": "event",
-                                    "value": "没看懂"
-                                }],
+                                    "name": "动态",
+                                    "value": "我以为以后我们会各奔东西，很难见面\n        结果就是你和我又一次的参加高考"
+                                }, {
+                                    "name": "心情",
+                                    "value": "心情很沉重，一想到以后很难再见面了"
+                                }
+],
                                 "type": "event"
                             }, {
                                 "date": 1396310400,
                                 "data": [{
-                                    "name": "<Date>",
-                                    "value": "2016-01-30 17:31:01"
+                                    "name": "时间",
+                                    "value": "2015-06-8 18:00:00"
                                 }, {
                                     "bonus": {
                                         "data": {
@@ -221,14 +241,19 @@ webpackJsonp([1], {
                                         },
                                         "type": "img"
                                     },
-                                    "name": "event",
-                                    "value": "求个js的插件，自己准备做一个"
-                                }],
+                                    "name": "动态",
+                                    "value": "我们第二次参加高考"
+                                }, {
+                                    "name": "心情",
+                                    "value": "当我得知你也来参加高考的时候，我是崩溃的-——-"
+                                }
+
+                              ],
                                 "type": "event"
                             },
                             //    {
                             //    "date": 1440337971,
-                            //    "data": [{"name": "<Date>", "value": "2015.08.23 21:52:51"}, {
+                            //    "data": [{"name": "时间", "value": "2015.08.23 21:52:51"}, {
                             //        "name": "action",
                             //        "value": "\u6ce8\u518c\u6210\u529f"
                             //    }, {
@@ -243,29 +268,30 @@ webpackJsonp([1], {
                                 "end": 1441670399,
                                 "type": "topics",
                                 "data": [{
-                                    "name": "<Date>",
-                                    "value": "2015.08.23-2015.09.07"
+                                    "name": "时间",
+                                    "value": "2013.04.12-2016.05.26"
                                 }, {
-                                    "name": "favorite topics",
-                                    "value": ["美女", "php", "java", "javascript", "wow", "愁啥", "瞅你咋地", "gay"]
+                                    "name": "你真的好多优点",
+                                    "value": ["喜欢美女", "讲义气", "偶尔思考人生", "喜欢欺负豆腐", "wow", "女朋友多", "人气高", "\u4eba\u597d\uff0c\u50cf\u5927\u7329\u7329"]
                                 }]
                             }, {
                                 "date": 1440383568,
                                 "data": [{
-                                    "name": "<Date>",
-                                    "value": "2015.08.24"
+                                    "name": "时间",
+                                    "value": "2016.5.26"
                                 }, {
-                                    "name": "action",
-                                    "value": "到此为止"
+                                    "name": "动态",
+                                    "value": "准备去你那里"
                                 }, {
-                                    "name": "question",
-                                    "value": "求相关插件"
+                                    "name": "心情",
+                                    "value": "认识你这么一个人真的倍儿棒"
                                 }],
                                 "type": "action"
                             },
+                            //--------------------------------------------------------
                             // {
                             //    "date": 1440425142,
-                            //    "data": [{"name": "<Date>", "value": "2015.08.24"}, {
+                            //    "data": [{"name": "时间", "value": "2015.08.24"}, {
                             //        "name": "action",
                             //        "value": "\u9996\u6b21\u8d5e\u540c"
                             //    }, {"name": "to", "value": "\u7528\u6237\u300c\u6797\u633a\u300d"}, {
@@ -273,9 +299,9 @@ webpackJsonp([1], {
                             //        "value": "\u300a\u4e09\u4f53\u300b\u597d\u5728\u54ea\u91cc\uff1f"
                             //    }],
                             //    "type": "action"
-                            //}, {
+                            // }, {
                             //    "date": 1440644169,
-                            //    "data": [{"name": "<Date>", "value": "2015.08.27"}, {
+                            //    "data": [{"name": "时间", "value": "2015.08.27"}, {
                             //        "name": "action",
                             //        "value": "\u9996\u6b21\u6536\u85cf"
                             //    }, {
@@ -283,9 +309,9 @@ webpackJsonp([1], {
                             //        "value": "\u5982\u4f55\u8bc4\u4ef7\u300a\u4e09\u4f53\u300b\u7b2c\u4e09\u90e8\u4e2d\u7684\u7a0b\u5fc3\uff1f"
                             //    }, {"name": "to", "value": "\u7528\u6237\u300c\u5468\u5929\u300d"}],
                             //    "type": "action"
-                            //}, {
+                            // }, {
                             //    "date": 1441619286,
-                            //    "data": [{"name": "<Date>", "value": "2015.09.07"}, {
+                            //    "data": [{"name": "时间", "value": "2015.09.07"}, {
                             //        "name": "action",
                             //        "value": "\u9996\u6b21\u56de\u7b54"
                             //    }, {
@@ -293,18 +319,18 @@ webpackJsonp([1], {
                             //        "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"
                             //    }],
                             //    "type": "action"
-                            //}, {
+                            // }, {
                             //    "date": 1441670399,
                             //    "end": 1449446399,
                             //    "type": "topics",
-                            //    "data": [{"name": "<Date>", "value": "2015.09.07-2015.12.06"}, {
+                            //    "data": [{"name": "时间", "value": "2015.09.07-2015.12.06"}, {
                             //        "name": "favorite topics",
                             //        "value": ["\u4fe1\u606f\u6280\u672f\uff08IT\uff09", "\u6280\u672f\u535a\u5ba2", "\u7a0b\u5e8f\u5458", "\u6bb5\u5b50", "\u524d\u7aef\u5f00\u53d1", "\u8bbe\u8ba1", "\u5a5a\u59fb", "\u5207\u5c14\u897f\uff08Chelsea FC\uff09", "\u4e09\u4f53\u200a\u2162\u2006:\u2006\u6b7b\u795e\u6c38\u751f", "\u4e92\u8054\u7f51\u884c\u4e1a"]
                             //    }]
-                            //}, {
+                            // }, {
                             //    "date": 1441962760,
                             //    "data": [{
-                            //        "name": "<Date>",
+                            //        "name": "时间",
                             //        "value": "2015.09.11"
                             //    }, {
                             //        "bonus": {"data": {"className": "inline-img", "name": "vote.png"}, "type": "img"},
@@ -315,9 +341,9 @@ webpackJsonp([1], {
                             //        "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"
                             //    }],
                             //    "type": "action"
-                            //}, {
+                            // }, {
                             //    "date": 1442117218,
-                            //    "data": [{"name": "<Date>", "value": "2015.09.13"}, {
+                            //    "data": [{"name": "时间", "value": "2015.09.13"}, {
                             //        "name": "action",
                             //        "value": "\u9996\u6b21\u88ab\u6536\u85cf"
                             //    }, {
@@ -325,35 +351,35 @@ webpackJsonp([1], {
                             //        "value": "Mac OS X \u5e73\u53f0\u6709\u54ea\u4e9b\u597d\u7528\u7684 SSH \u5ba2\u6237\u7aef\uff1f"
                             //    }, {"name": "from", "value": "\u7528\u6237\u300c\u5546\u4ecb\u5b50\u300d"}],
                             //    "type": "action"
-                            //}, {
+                            // }, {
                             //    "date": 1443052800,
-                            //    "data": [{"name": "<Date>", "value": "2015.09.24"}, {
-                            //        "name": "event",
+                            //    "data": [{"name": "时间", "value": "2015.09.24"}, {
+                            //        "name": "动态",
                             //        "value": "\u300c\u8bfb\u8bfb\u65e5\u62a5\u300d\u4e0a\u7ebf"
                             //    }],
                             //    "type": "event"
-                            //}, {
+                            // }, {
                             //    "date": 1443104538,
-                            //    "data": [{"name": "<Date>", "value": "2015.09.24"}, {
+                            //    "data": [{"name": "时间", "value": "2015.09.24"}, {
                             //        "name": "action",
                             //        "value": "\u9996\u6b21\u5173\u6ce8\u7528\u6237"
                             //    }, {"name": "to", "value": "\u7528\u6237\u300c\u738b\u5c3c\u739b\u300d"}],
                             //    "type": "action"
-                            //}, {
+                            // }, {
                             //    "date": 1443397304,
-                            //    "data": [{"name": "<Date>", "value": "2015.09.28"}, {
+                            //    "data": [{"name": "时间", "value": "2015.09.28"}, {
                             //        "name": "result",
                             //        "value": "\u6dfb\u52a0\u5c45\u4f4f\u5730: \u5317\u4eac"
                             //    }],
                             //    "type": "action"
-                            //}, {
+                            // }, {
                             //    "date": 1443397304,
-                            //    "data": [{"name": "<Date>", "value": "2015.09.28"}, {
+                            //    "data": [{"name": "时间", "value": "2015.09.28"}, {
                             //        "name": "result",
                             //        "value": "\u6dfb\u52a0\u516c\u53f8: \u4eba\u89c1\u4eba\u9a82\u7684\u767e\u5ea6"
                             //    }],
                             //    "type": "action"
-                            //}, {
+                            // }, {
                             //    "bonus": {
                             //        "data": {
                             //            "nameRight": "\u5d14\u5c0f\u62fd",
@@ -361,7 +387,7 @@ webpackJsonp([1], {
                             //            "nameLeft": "Cecile Liu"
                             //        }, "type": "animation"
                             //    },
-                            //    "data": [{"name": "<Date>", "value": "2015.10.20"}, {
+                            //    "data": [{"name": "时间", "value": "2015.10.20"}, {
                             //        "name": "action",
                             //        "value": "\u9996\u6b21\u83b7\u9080"
                             //    }, {"name": "from", "value": "\u7528\u6237\u300cCecile Liu\u300d"}, {
@@ -370,17 +396,18 @@ webpackJsonp([1], {
                             //    }],
                             //    "type": "action",
                             //    "date": 1445355593
-                            //}],
+                            // },
+                            //------------------------------------------------------------------
                         ],
-                        "username": "cui-xiao-zhuai",
+                        "username": "王一鸣",
                         "achievement": {
-                            "write_word_len": "111987 \u5b57",
-                            "pv": "111132 \u4e07\u5b57",
+                            "write_word_len": "我可是着急呀，这么大了",
+                            "pv": "生日快乐,快可以结婚了",
                             "bonus": false,
-                            "get_votes_count": "8888 \u4e2a",
-                            "invited": "444 \u6b21",
-                            "give_votes_count": "4444 \u4e2a",
-                            "collected": "1440 \u6b21",
+                            "get_votes_count": "不知道你着不着急",
+                            "invited": "结婚的时候一定要叫我去，必须的",
+                            "give_votes_count": "是不是有女朋友没告诉我呀",
+                            "collected": "哈哈，加油，一起努力",
                         }
                     };
                     s(t.bonus), (0, h.initCanvas)(), b["default"].trackAppStart(t.username), n(t)
@@ -450,7 +477,7 @@ webpackJsonp([1], {
                         return '<li><span class="left">' + i + '</span><span class="right">' + n + "</span></li>"
                     }).join("");
                 t.salt_club_role && (i += '<li><span class="nacl-club">盐 club ' + t.salt_club_role + '</span><img src="https://2015.zhihu.com/static/img/badge.png" alt="badge" class="badge"></li>');
-                var n = '\n    <section class="achievement' + (g["default"].mobile ? " mobile" : " pc") + '">\n      <img src="static/img/achievement.png" alt="成就标题" class="achievement-title">\n      <div class="achievement-list-wrap">\n        <ul class="achievement-list">\n          ' + i + '\n        </ul>\n      </div>\n      <div class="btn-group hide">\n        <img src="https://2015.zhihu.com/static/img/share.png" alt="分享按钮" class="share-btn">\n      </div>\n    </section>\n  ';
+                var n = '\n    <section class="achievement' + (g["default"].mobile ? " mobile" : " pc") + '">\n      <img src="static/img/achievement.png" alt="成就标题" class="achievement-title">\n      <div class="achievement-list-wrap">\n        <ul class="achievement-list">\n          ' + i + '\n        </ul>\n      </div>\n      <div class="btn-group hide">\n        <!-- <img src="https://2015.zhihu.com/static/img/share.png" alt="分享按钮" class="share-btn"> -->>\n    <p>现在我很怀恋以前在众志一起奋斗的日子，没有激情的时候一起听校长洗脑，然后发愤图强。<br>我诅咒你，诅咒你到处走狗屎运<br>加油，兄弟，加油！<br><br>友情为人生之酒<br><br>致我的兄弟<br>王一鸣</p>  </div>\n    </section>\n  ';
                 return n
             }
 
@@ -575,22 +602,31 @@ webpackJsonp([1], {
                     wechat: ["Warning！「fullname」正在进入知乎数据库！", "「fullname」入侵了知乎数据库，「hackname」黑客成就达成！"]
                 },
                 M = [
-                    ["pv", "总浏览："],
-                    ["get_votes_count", "获得赞同数："],
-                    ["give_votes_count", "送出赞同数："],
-                    ["write_word_len", "回答字数："],
-                    ["most_vote", "送出赞同最多："],
-                    ["most_voted", "得到赞同最多："],
-                    ["answer_pv", "答案被浏览数："],
-                    ["invited", "获邀请总数："],
-                    ["collected", "被收藏总数："],
-                    ["recommendation_daily", "日报推荐次数："],
-                    ["recommendation_editor", "编辑推荐次数："],
-                    ["selected_weekly", "入选周刊次数："],
-                    ["guest_salt_salon", "盐沙龙嘉宾次数："],
-                    ["guest_roundtable", "圆桌嘉宾次数："],
-                    ["book_salt", "盐书作者次数："],
-                    ["book_printed", "纸质书作者次数："]
+                    ["pv", "我说："],
+                    ["get_votes_count", "我说："],
+                    ["give_votes_count", "我说："],
+                    ["write_word_len", "我说："],
+                    ["most_vote", "我说："],
+                    ["most_voted", "我说："],
+                    ["answer_pv", "我说："],
+                    ["invited", "我说："],
+                    ["collected", "我说："],
+                    ["recommendation_daily", "我说："],
+                    ["recommendation_editor", "我说："],
+                    ["selected_weekly", "我说："],
+                    ["guest_salt_salon", "我说："],
+                    ["guest_roundtable", "我说："],
+                    ["book_salt", "我说："],
+                    ["book_printed", "我说："]
+                    // "achievement": {
+                    //     "write_word_len": "111987 \u5b57",
+                    //     "pv": "111132 \u4e07\u5b57",
+                    //     "bonus": false,
+                    //     "get_votes_count": "8888 \u4e2a",
+                    //     "invited": "444 \u6b21",
+                    //     "give_votes_count": "4444 \u4e2a",
+                    //     "collected": "1440 \u6b21",
+                    // }
                 ],
                 I = "https://2015.zhihu.com/static/img/wechat_share.png",
                 D = "",
