@@ -13,7 +13,7 @@ webpackJsonp([1], {
                 e.timeline.unshift({
                     type: "text",
                     data: {
-                        text: "Username: " + "王一鸣" + "\nPassword: ***********\nACCESS TO SYSTEM\n生日快乐\n21岁啦，有点长耐心看完哦\n在最美好的时光，我们一起奋斗过\n加油，兄弟\n我们仍在一起奋斗"
+                        text: "Username: " + "王一鸣" + "\nPassword: ***********\nACCESS TO SYSTEM\n生日快乐\n21岁啦，有点长耐心看完哦\n\n在最美好的时光，我们一起奋斗过\n加油，兄弟\n我们仍在一起奋斗\n"
                     },
                     config: {
                         effect: !0,
@@ -278,10 +278,10 @@ webpackJsonp([1], {
                                 "date": 1440383568,
                                 "data": [{
                                     "name": "时间",
-                                    "value": "2016.5.26"
+                                    "value": "2016.5.27"
                                 }, {
                                     "name": "动态",
-                                    "value": "准备去你那里"
+                                    "value": "买好车票准备去你那里"
                                 }, {
                                     "name": "心情",
                                     "value": "认识你这么一个人真的倍儿棒"
